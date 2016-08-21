@@ -5,20 +5,21 @@
 		
 	</head>
 	<body>
-		<form action="#" onsubmit="javascript:calculator(); return false;">		
-			<input value="" type="number" id="parameter1" onchange="javascript:calculator();"/>
-			<select id="operator"onchange="javascript:calculator();"> 
+		<form action="#" id = "form">	
+			<input value="" type="number" id="parameter1" input1:</label>
+			<select id="operator" >
 				<option value="addition">+</option> 
 				<option value="subtraction">-</option>
 				<option value="multiplication">*</option>
 				<option value="division">/</option>
 			</select>
-			<input id="parameter2" onchange="javascript:calculator();"value="" type="number">
+			<input id="parameter2">
 			<input id="submit" type="submit" value="="/>
 			<input id="result" type="number" value="" readonly="" value="readonly"/>
 		
 		
 		</form>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>
 		
 	
